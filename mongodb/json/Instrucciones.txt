@@ -1,8 +1,0 @@
-use climate;
-db.createCollection("air_quality");
-db.createCollection("city");
-load("./city.json");
-load("./koppen.json");
-load("./weather_data.json");
-
-Importar visualmente en el compass cada json en su colección

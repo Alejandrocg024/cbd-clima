@@ -1,3 +1,0 @@
-Descargar: https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.9.4.zip
-Agregar la carpeta bin al path de windows
-Desde la carpeta dump: mongorestore --db climate ./climate
