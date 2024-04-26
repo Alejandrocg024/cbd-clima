@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"2e0ea324721f4afb9b0c7508b1eeca86","collectionName":"air_quality","type":"collection"}

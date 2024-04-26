@@ -1,0 +1,33 @@
+{"_id":{"$oid":"66291bbb3db521caf987de02"},"name":"Anchorage","country":"United States","latitude":612181,"longitude":-1499003,"koppen_id":"Dsc","timezone":"AKDT (UTC-8)"}
+{"_id":{"$oid":"66291bbb3db521caf987de17"},"name":"Auckland","country":"New Zealand","latitude":-368485,"longitude":1747633,"koppen_id":"Cfb","timezone":"NZST (UTC+12)"}
+{"_id":{"$oid":"66291bbb3db521caf987de1b"},"name":"Bangkok","country":"Thailand","latitude":137563,"longitude":1005018,"koppen_id":"Aw","timezone":"ICT (UTC+7)"}
+{"_id":{"$oid":"66291bbb3db521caf987de06"},"name":"Buenos Aires","country":"Argentina","latitude":-346037,"longitude":-583816,"koppen_id":"Cfa","timezone":"ART (UTC-3)"}
+{"_id":{"$oid":"66291bbb3db521caf987de05"},"name":"Cairo","country":"Egypt","latitude":300444,"longitude":312357,"koppen_id":"BWh","timezone":"EET (UTC+2)"}
+{"_id":{"$oid":"66291bbb3db521caf987de09"},"name":"Cape Town","country":"South Africa","latitude":-339249,"longitude":184241,"koppen_id":"Csb","timezone":"SAST (UTC+2)"}
+{"_id":{"$oid":"66291bbb3db521caf987de10"},"name":"Dubai","country":"United Arab Emirates","latitude":252769,"longitude":552963,"koppen_id":"BWh","timezone":"GST (UTC+4)"}
+{"_id":{"$oid":"66291bbb3db521caf987de0f"},"name":"Helsinki","country":"Finland","latitude":601699,"longitude":249384,"koppen_id":"Dfb","timezone":"EET (UTC+2)"}
+{"_id":{"$oid":"66291bbb3db521caf987de0a"},"name":"Honolulu","country":"United States","latitude":213069,"longitude":-1578583,"koppen_id":"Am","timezone":"HST (UTC-10)"}
+{"_id":{"$oid":"66291bbb3db521caf987de1e"},"name":"Kampala","country":"Uganda","latitude":3474,"longitude":325825,"koppen_id":"Af","timezone":"EAT (UTC+3)"}
+{"_id":{"$oid":"66291bbb3db521caf987de1f"},"name":"Kathmandu","country":"Nepal","latitude":277129,"longitude":853186,"koppen_id":"Cwb","timezone":"NPT (UTC+5:45)"}
+{"_id":{"$oid":"66291bbb3db521caf987de20"},"name":"Lima","country":"Peru","latitude":-120464,"longitude":-770428,"koppen_id":"BWh","timezone":"PET (UTC-5)"}
+{"_id":{"$oid":"66291bbb3db521caf987de16"},"name":"Los Angeles","country":"United States","latitude":340522,"longitude":-1182437,"koppen_id":"Csb","timezone":"PDT (UTC-7)"}
+{"_id":{"$oid":"66291bbb3db521caf987de1d"},"name":"Madrid","country":"Spain","latitude":404168,"longitude":-37038,"koppen_id":"BSk","timezone":"CEST (UTC+2)"}
+{"_id":{"$oid":"66291bbb3db521caf987de03"},"name":"Mexico City","country":"Mexico","latitude":194326,"longitude":-991332,"koppen_id":"Cwb","timezone":"CST (UTC-6)"}
+{"_id":{"$oid":"66291bbb3db521caf987de0b"},"name":"Moscow","country":"Russia","latitude":557512,"longitude":376184,"koppen_id":"Dfb","timezone":"MSK (UTC+3)"}
+{"_id":{"$oid":"66291bbb3db521caf987de15"},"name":"Mumbai","country":"India","latitude":19076,"longitude":728777,"koppen_id":"Am","timezone":"IST (UTC+5:30)"}
+{"_id":{"$oid":"66291bbb3db521caf987de0e"},"name":"Nairobi","country":"Kenia","latitude":-12869,"longitude":368172,"koppen_id":"Cwb","timezone":"EAT (UTC+3)"}
+{"_id":{"$oid":"66291bbb3db521caf987de14"},"name":"Oslo","country":"Norway","latitude":599139,"longitude":107522,"koppen_id":"Dfb","timezone":"CET (UTC+1)"}
+{"_id":{"$oid":"66291bbb3db521caf987de08"},"name":"Reykjavik","country":"Iceland","latitude":641466,"longitude":-219426,"koppen_id":"ET","timezone":"GMT (UTC+0)"}
+{"_id":{"$oid":"66291bbb3db521caf987de0c"},"name":"Rio de Janeiro","country":"Brazil","latitude":-229068,"longitude":-431729,"koppen_id":"Am","timezone":"BRT (UTC-3)"}
+{"_id":{"$oid":"66291bbb3db521caf987de18"},"name":"Rome","country":"Italy","latitude":419028,"longitude":124964,"koppen_id":"Csa","timezone":"CET (UTC+1)"}
+{"_id":{"$oid":"66291bbb3db521caf987de11"},"name":"Seattle","country":"United States","latitude":476062,"longitude":-1223321,"koppen_id":"Csb","timezone":"PDT (UTC-7)"}
+{"_id":{"$oid":"66291bbb3db521caf987de1a"},"name":"Seoul","country":"South Korea","latitude":375665,"longitude":126978,"koppen_id":"Dwa","timezone":"KST (UTC+9)"}
+{"_id":{"$oid":"66291bbb3db521caf987de1c"},"name":"Seville","country":"Spain","latitude":373893,"longitude":-59844,"koppen_id":"Csa","timezone":"CEST (UTC+2)"}
+{"_id":{"$oid":"66291bbb3db521caf987de13"},"name":"Singapore","country":"Singapore","latitude":13521,"longitude":1038198,"koppen_id":"Af","timezone":"SGT (UTC+8)"}
+{"_id":{"$oid":"66291bbb3db521caf987de12"},"name":"Stockholm","country":"Sweden","latitude":593293,"longitude":180686,"koppen_id":"Cfb","timezone":"CET (UTC+1)"}
+{"_id":{"$oid":"66291bbb3db521caf987de01"},"name":"Sydney","country":"Australia","latitude":-338688,"longitude":1512093,"koppen_id":"Cfa","timezone":"AEST (UTC+10)"}
+{"_id":{"$oid":"66291bbb3db521caf987de07"},"name":"Tokyo","country":"Japan","latitude":356895,"longitude":1396917,"koppen_id":"Cfa","timezone":"JST (UTC+9)"}
+{"_id":{"$oid":"66291bbb3db521caf987de19"},"name":"Toronto","country":"Canada","latitude":436532,"longitude":-793832,"koppen_id":"Dfb","timezone":"EDT (UTC-4)"}
+{"_id":{"$oid":"66291bbb3db521caf987de04"},"name":"Tromsø","country":"Norway","latitude":696496,"longitude":18956,"koppen_id":"ET","timezone":"CET (UTC+1)"}
+{"_id":{"$oid":"66291bbb3db521caf987de0d"},"name":"Vancouver","country":"Canada","latitude":492827,"longitude":-1231207,"koppen_id":"Cfb","timezone":"PDT (UTC-7)"}
+{"_id":{"$oid":"66291bbb3db521caf987de21"},"name":"Vientiane","country":"Laos","latitude":179752,"longitude":1026156,"koppen_id":"Aw","timezone":"ICT (UTC+7)"}
