@@ -42,10 +42,10 @@ router.get("/", async (req, res) => {
         }
 
         if (response.length === 0) {
-            res.status(404).send("No se encontraron ciudades con ese nombre");
+            return res.status(404).send("No se encontraron datos con ese filtro");
+        } else {
+            return res.send(response);
         }
-
-        res.send(response);
     } catch (error) {
         res.status(500).send(error.message);
     }
@@ -73,9 +73,9 @@ router.put("/:id", async (req, res) => {
 
         if (!updatedCity) {
             return res.status(404).send("La ciudad no fue encontrada.");
+        } else {
+            res.send(updatedCity);
         }
-
-        res.send(updatedCity);
     } catch (error) {
         res.status(500).send(error.message);
     }
@@ -90,9 +90,9 @@ router.delete("/:id", async (req, res) => {
 
         if (!deletedCity) {
             return res.status(404).send("La ciudad no fue encontrada.");
+        } else {
+            res.send(deletedCity);
         }
-
-        res.send(deletedCity);
     } catch (error) {
         res.status(500).send(error.message);
     }

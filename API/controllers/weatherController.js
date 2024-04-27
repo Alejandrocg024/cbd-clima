@@ -1,6 +1,6 @@
 const express = require('express');
-const airQualityModel = require('../models/airQualityModel');
-const CityModel = require('../models/cityModel');
+const weatherModel = require('../models/weatherDataModel');
+const cityModel = require('../models/cityModel');
 
 const router = express.Router();
 
@@ -13,9 +13,7 @@ router.get("/", async (req, res) => {
         const filter = {};
 
         if (cityName) {
-            console.log(cityName);
-            const city = await CityModel.findOne({ name: cityName });
-            console.log(city);
+            const city = await cityModel.findOne({ name: cityName });
             if (city) {
                 filter.city = city._id; 
             } else {
@@ -47,7 +45,7 @@ router.get("/", async (req, res) => {
 
         if (includeCityData) {
 
-            response = await airQualityModel.aggregate([
+            response = await weatherModel.aggregate([
                 {
                     $match: filter 
                 },
@@ -62,7 +60,7 @@ router.get("/", async (req, res) => {
             ]).exec();
 
         } else {
-            response = await airQualityModel.find(filter);
+            response = await weatherModel.find(filter);
         }
 
         if (response.length === 0) {
@@ -79,7 +77,7 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res) => {
     try {
         const body = req.body;
-        const response = await airQualityModel.create(body);
+        const response = await weatherModel.create(body);
         res.send(response);
     }
     catch (error) {
@@ -91,13 +89,13 @@ router.post("/", async (req, res) => {
 // Delete
 router.delete("/:id", async (req, res) => {
     try {
-        const airQualityId = req.params.id;
-        const deletedAirQuality = await airQualityModel.findByIdAndDelete(airQualityId);
+        const weatherId = req.params.id;
+        const deletedWeather = await weatherModel.findByIdAndDelete(weatherId);
 
-        if (!deletedAirQuality) {
+        if (!deletedWeather) {
             return res.status(404).send("Los datos no fueron encontrados.");
         } else {
-            res.send(deletedAirQuality);
+            res.send(deletedWeather);
         }
     } catch (error) {
         res.status(500).send(error.message);
