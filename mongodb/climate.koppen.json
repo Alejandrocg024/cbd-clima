@@ -1,0 +1,421 @@
+[{
+  "_id": "Af",
+  "description": "Tropical Rainforest Climate",
+  "group": "Tropical",
+  "properties": {
+    "precipitation_type": "Abundant rainfall throughout the year.",
+    "lvl_heat": "Very High",
+    "temperature_type": "High throughout the year",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Heavy Rain"
+    ]
+  }
+},
+{
+  "_id": "Am",
+  "description": "Monsoon Climate",
+  "group": "Tropical",
+  "properties": {
+    "precipitation_type": "Intense rainfall during wet season followed by dry season.",
+    "lvl_heat": "Very High",
+    "temperature_type": "High in wet season, Moderate in dry season",
+    "extreme_climatic_events": [
+      "Monsoons",
+      "Flooding",
+      "Landslides"
+    ]
+  }
+},
+{
+  "_id": "As",
+  "description": "Cold Desert Climate",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Scarce precipitation, mainly in form of snow.",
+    "lvl_heat": "High",
+    "temperature_type": "Wide variation, Cold winters, Hot summers",
+    "extreme_climatic_events": [
+      "Blizzards",
+      "Snowstorms"
+    ]
+  }
+},
+{
+  "_id": "Aw",
+  "description": "Tropical Savanna Climate",
+  "group": "Tropical",
+  "properties": {
+    "precipitation_type": "Moderate rainfall during wet season followed by dry season.",
+    "lvl_heat": "High",
+    "temperature_type": "High in wet season, Moderate in dry season",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Droughts"
+    ]
+  }
+},
+{
+  "_id": "BSh",
+  "description": "Hot Desert Climate",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Hot summers and mild, dry winters.",
+    "lvl_heat": "High",
+    "temperature_type": "Very high in summer, Moderate in winter",
+    "extreme_climatic_events": [
+      "Sandstorms",
+      "Heatwaves"
+    ]
+  }
+},
+{
+  "_id": "BSk",
+  "description": "Cold Desert Climate",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Hot summers and cold winters.",
+    "lvl_heat": "High in summer, moderate in winter",
+    "temperature_type": "Very high in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Blizzards",
+      "Extreme temperature variations"
+    ]
+  }
+},
+{
+  "_id": "BWh",
+  "description": "Hot Desert Climate",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Very scarce rainfall, prolonged droughts.",
+    "lvl_heat": "Very High",
+    "temperature_type": "Very high throughout the year",
+    "extreme_climatic_events": [
+      "Heatwaves",
+      "Sandstorms"
+    ]
+  }
+},
+{
+  "_id": "BWk",
+  "description": "Cold Desert Climate",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Very scarce rainfall, prolonged droughts.",
+    "lvl_heat": "High in summer, moderate in winter",
+    "temperature_type": "Very high in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Blizzards",
+      "Extreme temperature variations"
+    ]
+  }
+},
+{
+  "_id": "Cfa",
+  "description": "Humid Subtropical Climate",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Abundant rainfall throughout the year.",
+    "lvl_heat": "High in summer, moderate in winter",
+    "temperature_type": "Moderate to high throughout the year",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Hurricanes"
+    ]
+  }
+},
+{
+  "_id": "Cfb",
+  "description": "Marine West Coast Climate",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Abundant rainfall throughout the year.",
+    "lvl_heat": "Moderate",
+    "temperature_type": "Moderate throughout the year",
+    "extreme_climatic_events": [
+      "Coastal storms",
+      "Fog"
+    ]
+  }
+},
+{
+  "_id": "Cfc",
+  "description": "Subpolar Oceanic Climate",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Abundant rainfall throughout the year.",
+    "lvl_heat": "Low",
+    "temperature_type": "Low throughout the year",
+    "extreme_climatic_events": [
+      "Coastal storms",
+      "Fog"
+    ]
+  }
+},
+{
+  "_id": "Csa",
+  "description": "Mediterranean Climate with Hot Summer",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Dry summers and wet winters.",
+    "lvl_heat": "High in summer, moderate in winter",
+    "temperature_type": "High in summer, Moderate in winter",
+    "extreme_climatic_events": [
+      "Droughts",
+      "Wildfires"
+    ]
+  }
+},
+{
+  "_id": "Csb",
+  "description": "Mediterranean Climate with Warm Summer",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Moderate rainfall throughout the year.",
+    "lvl_heat": "Moderate",
+    "temperature_type": "Moderate throughout the year",
+    "extreme_climatic_events": [
+      "Droughts",
+      "Wildfires"
+    ]
+  }
+},
+{
+  "_id": "Csc",
+  "description": "Mediterranean Climate with Cool Summer",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Moderate rainfall throughout the year.",
+    "lvl_heat": "Moderate",
+    "temperature_type": "Moderate throughout the year",
+    "extreme_climatic_events": [
+      "Droughts",
+      "Wildfires"
+    ]
+  }
+},
+{
+  "_id": "Cwa",
+  "description": "Humid Subtropical Climate with Hot Summer",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Abundant rainfall throughout the year.",
+    "lvl_heat": "High in summer, moderate in winter",
+    "temperature_type": "Moderate to high throughout the year",
+    "extreme_climatic_events": [
+      "Monsoons",
+      "Flooding"
+    ]
+  }
+},
+{
+  "_id": "Cwb",
+  "description": "Humid Subtropical Climate with Dry Winter",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Abundant rainfall during summer, dry winter.",
+    "lvl_heat": "High in summer, moderate in winter",
+    "temperature_type": "Moderate to high in summer, Moderate in winter",
+    "extreme_climatic_events": [
+      "Hurricanes",
+      "Tropical storms"
+    ]
+  }
+},
+{
+  "_id": "Cwc",
+  "description": "Humid Subtropical Climate with Cool Winter",
+  "group": "Temperate",
+  "properties": {
+    "precipitation_type": "Abundant rainfall throughout the year.",
+    "lvl_heat": "High in summer, moderate in winter",
+    "temperature_type": "Moderate to high throughout the year",
+    "extreme_climatic_events": [
+      "Monsoons",
+      "Flooding"
+    ]
+  }
+},
+{
+  "_id": "Dfa",
+  "description": "Humid Continental Climate, Hot Summer",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "High in summer, cold in winter",
+    "temperature_type": "High in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "Dfb",
+  "description": "Humid Continental Climate, Warm Summer",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "Moderate in summer, cold in winter",
+    "temperature_type": "Moderate in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "Dfc",
+  "description": "Humid Continental Climate, Cool Summer",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "Moderate in summer, cold in winter",
+    "temperature_type": "Moderate in summer, Very Low in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "Dfd",
+  "description": "Humid Continental Climate, Very Cold Winter",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "Moderate in summer, very cold in winter",
+    "temperature_type": "Low in summer, Very Low in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "Dsa",
+  "description": "Hot Continental Desert Climate, Hot Summer",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Scant rainfall, hot summers, cold winters.",
+    "lvl_heat": "High in summer, cold in winter",
+    "temperature_type": "Very high in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Dust storms",
+      "Heatwaves"
+    ]
+  }
+},
+{
+  "_id": "Dsb",
+  "description": "Hot Continental Desert Climate, Warm Summer",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Scant rainfall, hot summers, cold winters.",
+    "lvl_heat": "Moderate in summer, cold in winter",
+    "temperature_type": "Very high in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Dust storms",
+      "Heatwaves"
+    ]
+  }
+},
+{
+  "_id": "Dsc",
+  "description": "Hot Continental Desert Climate, Cool Summer",
+  "group": "Arid & Semiarid",
+  "properties": {
+    "precipitation_type": "Scant rainfall, hot summers, cold winters.",
+    "lvl_heat": "Moderate in summer, cold in winter",
+    "temperature_type": "Very high in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Dust storms",
+      "Heatwaves"
+    ]
+  }
+},
+{
+  "_id": "Dwa",
+  "description": "Humid Continental Climate, Hot Summer",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "High in summer, cold in winter",
+    "temperature_type": "High in summer, Moderate in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "Dwb",
+  "description": "Humid Continental Climate, Warm Summer",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "Moderate in summer, cold in winter",
+    "temperature_type": "High in summer, Moderate in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "Dwc",
+  "description": "Humid Continental Climate, Cool Summer",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "Moderate in summer, cold in winter",
+    "temperature_type": "Moderate in summer, Low in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "Dwd",
+  "description": "Humid Continental Climate, Very Cold Winter",
+  "group": "Cold",
+  "properties": {
+    "precipitation_type": "Rainfall and snowfall throughout the year.",
+    "lvl_heat": "Moderate in summer, very cold in winter",
+    "temperature_type": "Low in summer, Very Low in winter",
+    "extreme_climatic_events": [
+      "Thunderstorms",
+      "Blizzards"
+    ]
+  }
+},
+{
+  "_id": "EF",
+  "description": "Tundra Climate",
+  "group": "Polar",
+  "properties": {
+    "precipitation_type": "Scant precipitation, short cool summers, long cold winters.",
+    "lvl_heat": "Very Low",
+    "temperature_type": "Very Low throughout the year",
+    "extreme_climatic_events": [
+      "Permafrost",
+      "Snowstorms"
+    ]
+  }
+},
+{
+  "_id": "ET",
+  "description": "Tundra Climate",
+  "group": "Polar",
+  "properties": {
+    "precipitation_type": "Scant precipitation, short cool summers, long cold winters.",
+    "lvl_heat": "Very Low",
+    "temperature_type": "Very Low throughout the year",
+    "extreme_climatic_events": [
+      "Permafrost",
+      "Snowstorms"
+    ]
+  }
+}]
