@@ -10,8 +10,11 @@ Este proyecto ha sido realizado para la asignatura de Complementos de Bases de D
 
 Asegúrate de tener instalados los siguientes programas en tu sistema:
 
-- Node.js y npm
-- MongoDB
+- [Node.js](http://nodejs.org)
+- [MongoDB](https://www.mongodb.com/try/download/community-kubernetes-operator)
+- MongoRestore: 
+      1. Descarga el [zip](https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.9.4.zip)
+      2.Añáde la carpeta bine al PATH de tus variables de entorno
 
 ## Instalación
 
@@ -46,17 +49,6 @@ Asegúrate de tener instalados los siguientes programas en tu sistema:
 
    ```bash
    mongorestore --db climate ./climate
-   ```
-
-   3.1 Si no te funciona mongorestore, asegurate que tienes instalado: https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.9.4.zip
-   
-   3.2 Si lo prefieres, puedes crear la base de dato y colecciones de la siguiente forma en una consola de mongodb. Posteriormente, puede importar los json que se encuentran en este directorio en su colección correspondiente
-   ```bash
-    use climate;
-    db.createCollection("air_quality");
-    db.createCollection("city");
-    db.createCollection("koppen");
-    db.createCollection("weather_data");
    ```
 
 ## Uso
