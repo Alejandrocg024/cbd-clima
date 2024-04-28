@@ -58,3 +58,5 @@ Para iniciar el servidor, ejecuta el siguiente comando:
 ```bash
 npm run dev
 ```
+
+Para probar todos los endpoints en postman, puede importar el .json que hay en la carpeta postman en la aplicación como una colección. Puede ir ejecutandolos en orden y probando todo (para probar el delete puede copiar el id que ha creado justo antes en el post)
