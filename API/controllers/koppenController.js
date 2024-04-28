@@ -18,7 +18,7 @@ router.get("/", async (req, res) => {
         console.log(response);
 
         if (response.length === 0) {
-            return res.status(404).send("No se encontraron datos con ese filtro");
+            return res.status(404).send("No se encontraron datos con ese filtro.");
         } else {
             return res.send(response);
         }
@@ -34,7 +34,7 @@ router.get("/:id", async (req, res) => {
         const response = await koppenModel.findById(koppenId);
 
         if (!response) {
-            return res.status(404).send("El koppen no fue encontrado.");
+            return res.status(404).send("El código Köppen no fue encontrado.");
         } else {
             res.send(response);
         }
@@ -50,7 +50,7 @@ router.delete("/:id", async (req, res) => {
         const deletedKoppen = await koppenModel.findByIdAndDelete(koppenId);
 
         if (!deletedKoppen) {
-            return res.status(404).send("El koppen no fue encontrado.");
+            return res.status(404).send("El código Köppen no fue encontrado.");
         } else {
             res.send(deletedKoppen);
         }

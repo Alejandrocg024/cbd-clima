@@ -42,7 +42,7 @@ router.get("/", async (req, res) => {
         }
 
         if (response.length === 0) {
-            return res.status(404).send("No se encontraron datos con ese filtro");
+            return res.status(404).send("No se encontraron datos con ese filtro.");
         } else {
             return res.send(response);
         }
@@ -55,6 +55,16 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res) => {
     try {
         const body = req.body;
+
+        if (!body.coordinates || !body.coordinates.latitude || !body.coordinates.longitude) {
+            return res.status(400).send("Los valores de latitud y longitud son obligatorios.");
+        }
+
+        const existingCity = await cityModel.findOne({ name: body.name, country: body.country });
+        if (existingCity) {
+            return res.status(400).send("Ya existe una ciudad con este nombre y país.");
+        }
+
         const response = await cityModel.create(body);
         res.send(response);
     }
@@ -68,6 +78,11 @@ router.put("/:id", async (req, res) => {
     try {
         const cityId = req.params.id;
         const updatedCityData = req.body;
+
+        const existingCity = await cityModel.findOne({ name: updatedCityData.name, country: updatedCityData.country });
+        if (existingCity && existingCity._id.toString() !== cityId) {
+            return res.status(400).send("Ya existe una ciudad con este nombre y país.");
+        }
 
         const updatedCity = await cityModel.findByIdAndUpdate(cityId, updatedCityData, { new: true });
 

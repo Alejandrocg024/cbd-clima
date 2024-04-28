@@ -112,7 +112,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"name\": \"New York\",\n  \"country\": \"United States\",\n  \"koppen_id\": \"Dsc\",\n  \"timezone\": \"AKDT (UTC-8)\",\n  \"coordinates\": {\n    \"latitude\": 612181,\n    \"longitude\": -1499003\n  }\n}",
+					"raw": "{\n  \"name\": \"New York\",\n  \"country\": \"United States\",\n  \"koppen_id\": \"Dsc\",\n  \"timezone\": \"AKDT (UTC-8)\",\n  \"coordinates\": {\n    \"latitude\": 40.7128,\n    \"longitude\": -74.0060\n  }\n}",
 					"options": {
 						"raw": {
 							"language": "json"

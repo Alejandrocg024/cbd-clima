@@ -37,7 +37,7 @@ router.get("/", async (req, res) => {
                 $lt: lwdate
               };
         } else if (hour) {
-            return res.status(400).send("Para filtrar por hora se necesita la fecha");
+            return res.status(400).send("Para filtrar por hora se necesita la fecha.");
         }
 
         const includeCityData = req.query.includeCityData === 'true';
@@ -64,7 +64,7 @@ router.get("/", async (req, res) => {
         }
 
         if (response.length === 0) {
-            return res.status(404).send("No se encontraron datos con ese filtro");
+            return res.status(404).send("No se encontraron datos con ese filtro.");
         } else {
             return res.send(response);
         }
@@ -77,6 +77,12 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res) => {
     try {
         const body = req.body;
+
+        const existingWeather = await weatherModel.findOne({ city: body.city, date_time: body.date_time });
+        if (existingWeather) {
+            return res.status(400).send("Ya existe un registro con esta fecha y hora para esta ciudad.");
+        }
+
         const response = await weatherModel.create(body);
         res.send(response);
     }
