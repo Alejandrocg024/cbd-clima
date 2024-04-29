@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"80a3d6e2f9ac4a789cfb1a1b77283a8d","collectionName":"weather_data","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"143934f453d54f1db900ae5465014a4c","collectionName":"weather_data","type":"collection"}

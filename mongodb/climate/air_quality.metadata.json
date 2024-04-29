@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5c4ee741cb2641c6ab13305400e05d4d","collectionName":"air_quality","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b292a24d3cc948798a28103f83e6f2ea","collectionName":"air_quality","type":"collection"}

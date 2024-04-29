@@ -28,10 +28,6 @@ const weatherSchema = new Schema({
             type: Number,
             required: true
         },
-        weather_condition_role: {
-            type: Number,
-            required: true
-        },
         wind: {
             direction: {
                 type: Number,
