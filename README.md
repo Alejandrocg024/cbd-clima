@@ -14,7 +14,7 @@ Asegúrate de tener instalados los siguientes programas en tu sistema:
 - [MongoDB](https://www.mongodb.com/try/download/community-kubernetes-operator)
 - MongoRestore: 
       1. Descarga el [zip](https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.9.4.zip)
-      2.Añáde la carpeta bine al PATH de tus variables de entorno
+      2.Añáde la carpeta bin al PATH de tus variables de entorno
 
 ## Instalación
 
