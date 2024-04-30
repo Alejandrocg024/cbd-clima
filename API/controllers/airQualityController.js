@@ -13,9 +13,7 @@ router.get("/", async (req, res) => {
         const filter = {};
 
         if (cityName) {
-            console.log(cityName);
             const city = await CityModel.findOne({ name: cityName });
-            console.log(city);
             if (city) {
                 filter.city = city._id; 
             } else {
@@ -80,7 +78,7 @@ router.post("/", async (req, res) => {
     try {
         const body = req.body;
 
-        const existingWeather = await weatherModel.findOne({ city: body.city, date_time: body.date_time });
+        const existingWeather = await airQualityModel.findOne({ city: body.city, date_time: body.date_time });
         if (existingWeather) {
             return res.status(400).send("Ya existe un registro con esta fecha y hora para esta ciudad.");
         }
